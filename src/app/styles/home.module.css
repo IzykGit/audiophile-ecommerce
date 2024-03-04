@@ -1,0 +1,297 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope", sans-serif;
+
+}
+
+
+/* hero section of the webpage */
+
+.heroSection {
+    height: 45rem;
+    background-image: url("../../../public/home/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroContainer {
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroContainer > * {
+    max-width: 40%;
+    margin: 15px 0px 15px 0px;
+}
+
+.heroContainer > p:nth-child(1) {
+    font-size: 14px;
+    color: #f1f1f1;
+    opacity: 50%;
+    letter-spacing: 10px;
+}
+
+.heroContainer > p:nth-child(2) {
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #FFFF;
+}
+
+.heroContainer  > p:nth-child(3) {
+    font-size: 15px;
+    font-weight: medium;
+    width: 21.8rem;
+    line-height: 25px;
+    color: #FFFF;
+    opacity: 90%;
+}
+
+.heroContainer > button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fafafa;
+    background-color: #D87D4A;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.heroContainer > button:hover {
+    background-color: #FBAF85;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* section for product showcases */
+
+.productShowcaseSection {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+    margin: 10.5rem 0px 0px 0px;
+}
+
+.productShowcaseContainer {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: repeat(4, 1fr);
+    column-gap: 3rem;
+    row-gap: 1.8rem;
+}
+
+
+
+.productOne {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-color: #D87D4A;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.productOneInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    padding: 5px 5px 5px 5px;
+}
+
+.productOneInfo > * {
+    margin: 1rem 0px 1rem 0px;
+}
+
+
+.productOneInfo > p:nth-child(1) {
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #FFFF;
+}
+
+.productOneInfo  > p:nth-child(2) {
+    font-size: 15px;
+    font-weight: medium;
+    width: 21.8rem;
+    line-height: 25px;
+    color: #FFFF;
+    opacity: 90%;
+}
+
+.productOneInfo > button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fafafa;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.productOneInfo > button:hover {
+    background-color: #4C4C4C;
+}
+
+
+
+.speakerZX9 {
+    height: 30.8rem;
+    width: auto;
+    position: relative;
+    top: 5rem;
+}
+
+
+
+
+
+
+
+.productTwoImage {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    width: 100%;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.speakerZX7 {
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+}
+
+
+.productTwoInfo {
+    height: 100%;
+    grid-column: 1;
+    grid-row: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.productTwoInfo > div > p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.productTwoInfo > div > button {
+    width: 10rem;
+    height: 3rem;
+    align-self: center;
+    border: 1px solid black;
+
+    font-size: 13;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    margin: 3rem 0px 0px 0px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.productTwoInfo > div > button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+.productThreeImage {
+    grid-column: 1;
+    grid-row: 4;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.productThreeImage > * {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.productThreeInfo {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: #f1f1f1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.productThreeInfo > div > p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.productThreeInfo > div > button {
+    width: 10rem;
+    height: 3rem;
+    align-self: center;
+    border: 1px solid black;
+
+    font-size: 13;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    margin: 3rem 0px 0px 0px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.productThreeInfo > div > button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+

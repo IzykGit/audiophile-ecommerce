@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+    color: white;
+    width: inherit;
+    border-bottom: 1px solid #fafafa;
+    position: absolute;
+
+    font-family: "Manrope", sans-serif;
+}
+
+
+.title {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    grid-column: 1;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 26.8rem;
+    padding-inline-start: 0;
+
+}
+
+.navLinks > li {
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navLinks > li:hover {
+    border-bottom: #D87D4A 2px solid;
+}
+
+.shoppingCartButton {
+    border: none;
+    background-color: transparent;
+    text-align: right;
+}
+
+.shoppingCart {
+    cursor: pointer;
+}
+
