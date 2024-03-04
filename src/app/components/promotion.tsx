@@ -17,7 +17,7 @@ const Promotion = () => {
             </div>
     
             <Image src={promotionImage} alt="Man using headphones" className={styles.promotionImage}/>
-    
+            
         </div>
     </section>
 
